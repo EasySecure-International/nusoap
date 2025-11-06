@@ -4599,7 +4599,7 @@ class nusoap_server extends nusoap_base
             if ($HTTPS == '1' || $HTTPS == 'on') {
                 $SCHEME = 'https';
             } else {
-                $SCHEME = 'http';
+                $SCHEME = 'https';
             }
             $soapaction = "$SCHEME://$SERVER_NAME$SCRIPT_NAME/$name";
         }
